@@ -6,15 +6,15 @@ int main() {
     scanf("%d", &score);
 
     if (score >= 90)
-        printf("Grade A: Excellent work!\n");
+        printf("Grade 1: Excellent work!\n");
     else if (score >= 80)
-        printf("Grade B: Good job!\n");
+        printf("Grade 2: Good job!\n");
     else if (score >= 70)
-        printf("Grade C: You passed!\n");
+        printf("Grade 3: You passed!\n");
     else if (score >= 60)
-        printf("Grade D: You need to study harder.\n");
+        printf("Grade 4: You need to study harder.\n");
     else
-        printf("Grade F: Better luck next time.\n");
+        printf("Grade 5: Better luck next time.\n");
 
     return 0;
 }
